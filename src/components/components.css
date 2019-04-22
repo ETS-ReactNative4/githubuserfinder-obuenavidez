@@ -1,0 +1,104 @@
+.body {
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 5s linear;
+  height: 20vmin;
+  pointer-events: none;
+}
+.App-title {
+  height: 10vmin;
+  pointer-events: none;
+  font-size: calc(10px + 14vmin);
+}
+.App-header {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 4vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Personal CSS
+   */
+
+input {
+  border: 1px solid black;
+  border-radius: 7px;
+  width: 15%;
+  height: 50%;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  box-sizing: border-box;
+  height: 5vmin;
+  font-size: 3vmin;
+  padding: 3px 15px;
+}
+
+input[type="text"] {
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  margin: 5px;
+  height: 6vmin;
+}
+
+input[type="text"]:focus {
+  width: 45%;
+  height: 6vmin;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 3px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100px;
+}
+
+.button1 {
+  color: white;
+  background: black;
+  font-weight: bold;
+  border: 1px solid #900;
+  height: 6vmin;
+  width: 18vmin;
+}
+
+.button2 {
+  color: white;
+  background: black;
+  font-weight: bold;
+  border: 1px solid #900;
+  height: 5vmin;
+  width: 18vmin;
+}
+
+.ErrMessage {
+  color: red;
+  font-weight: bold;
+  -webkit-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
