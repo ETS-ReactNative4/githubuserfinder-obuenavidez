@@ -6,7 +6,7 @@ import { selectUser, fetchUserAndRepos } from "../actions";
 import Picker from "../components/Picker";
 import User from "../components/User";
 import Header from "../components/Header";
-//import Footer from "../components/Footer";
+import Footer from "../components/Footer";
 
 import { Container, Row, Col } from "reactstrap";
 
@@ -62,7 +62,7 @@ class App extends Component {
             </Col>
           </Row>
         </Container>
-        <center>{/* <Footer /> */}</center>
+        <Footer />
       </div>
     );
   }

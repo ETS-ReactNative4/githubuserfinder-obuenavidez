@@ -4,6 +4,7 @@
   "owner": "Oscar D. Buenavidez Jr.",
   "version": "0.0.172",
   "dependencies": {
+    "eslint-config-react-app": "^3.0.8",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-redux": "5.0.6",
@@ -13,6 +14,7 @@
     "redux-thunk": "2.2.0"
   },
   "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.2.1",
     "expect": "^22.1.0",
     "fetch-mock": "^6.0.0",
     "react-scripts": "1.0.0",
